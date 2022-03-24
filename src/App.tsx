@@ -32,7 +32,7 @@ const [randomQuote, setRandomQuote] = useState<string>('')
     // .catch(err => console.log(err.message))
 
     // calculate progress in percentage
-  progressInPercentage = (progressCount/totalItemsCount)*100
+  progressInPercentage = Math.round((progressCount/totalItemsCount)*100)
 
   // if all steps are completed, display the quote
   if(progressInPercentage === 100) alert(randomQuote)

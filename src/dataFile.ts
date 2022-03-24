@@ -8,19 +8,19 @@ export const data:dataForm[] = [
     items: [
         {
             "id": 12,
-            "name":"Research item 1",
+            "name":"Business niche",
             "isDone": false
         },{
             "id":13,
-            "name": "Research item 2",
+            "name": "Target audience",
             "isDone":false        
         },{
             "id":14,
-            "name": "Research item 3",
+            "name": "Your unique sales proposition (USP)",
             "isDone":false
         },{
             "id":15,
-            "name":"Research item 4",
+            "name":"Funding",
             "isDone":false
         }]
     },
@@ -30,19 +30,19 @@ export const data:dataForm[] = [
      "items": [
         {
             "id": 16,
-            "name":"Research item 1",
+            "name":"Startup virtual office",
             "isDone": false
         },{
             "id": 17,
-            "name": "Research item 2",
+            "name": "Set mission and vision",
             "isDone":false        
         },{
             "id": 18,
-            "name": "Research item 3",
+            "name": "Business name",
             "isDone":false
         },{
             "id": 19,
-            "name":"Research item 4",
+            "name":"Buy domains",
             "isDone":false
         }]
     },
@@ -52,20 +52,12 @@ export const data:dataForm[] = [
      "items": [
         {
             "id": 20,
-            "name":"Research item 1",
+            "name":"Size up the competition",
             "isDone": false
         },{
             "id": 21,
-            "name": "Research item 2",
+            "name": "Create roadmap",
             "isDone":false        
-        },{
-            "id": 22,
-            "name": "Research item 3",
-            "isDone":false
-        },{
-            "id": 23,
-            "name":"Research item 4",
-            "isDone":false
         }]
     },
     {
@@ -74,19 +66,15 @@ export const data:dataForm[] = [
      "items": [
         {
             "id": 24,
-            "name":"Research item 1",
+            "name":"MVP testing",
             "isDone": false
         },{
             "id":25,
-            "name": "Research item 2",
+            "name": "Release marketing website",
             "isDone":false        
         },{
             "id":26,
-            "name": "Research item 3",
-            "isDone":false
-        },{
-            "id": 27,
-            "name":"Research item 4",
+            "name": "Release MVP",
             "isDone":false
         }]
     }
