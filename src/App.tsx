@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import './App.css';
 import Nav from './components/Nav';
-import AddStartup from './components/AddStartup';
 import { data } from "./dataFile";
 import SingleItem from './components/SingleItem';
 import { dataForm } from './models';
@@ -18,7 +17,7 @@ const [randomQuote, setRandomQuote] = useState<string>('')
 
 
   // calculate progress
-  dataFile.map(e => e.items.map(i => {
+  dataFile.map(e => e.items.map(i =>  {
     // add one to the  count if listed item is checked
     progressCount = i.isDone ? progressCount +=1 : progressCount
     // count the total items to be checked
@@ -36,9 +35,9 @@ const [randomQuote, setRandomQuote] = useState<string>('')
   progressInPercentage = (progressCount/totalItemsCount)*100
 
   // if all steps are completed, display the quote
-  if(progressInPercentage ==  100) alert(randomQuote)
+  if(progressInPercentage === 100) alert(randomQuote)
 
-  
+
 useEffect(() => {
   getRandomQuote()
 }, [])

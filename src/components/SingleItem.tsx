@@ -1,5 +1,5 @@
 import React from 'react'
-import { dataForm, ItemsInterface } from '../models'
+import { dataForm } from '../models'
 
 interface props {
     processData: dataForm
