@@ -17,7 +17,7 @@ const [randomQuote, setRandomQuote] = useState<string>('')
 
 
   // calculate progress
-  dataFile.map(e => e.items.map(i =>  {
+  dataFile.forEach(e => e.items.forEach(i =>  {
     // add one to the  count if listed item is checked
     progressCount = i.isDone ? progressCount +=1 : progressCount
     // count the total items to be checked
